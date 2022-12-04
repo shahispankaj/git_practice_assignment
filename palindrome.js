@@ -1,6 +1,6 @@
 let str="madam";
-let bag=1;
-for(i=0; i<=str.length; i++){
+let bag="";
+for(i=str.length;i>=0;i--){
     bag+=str[i]
 }
 
